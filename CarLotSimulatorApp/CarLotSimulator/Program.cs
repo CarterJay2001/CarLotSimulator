@@ -17,7 +17,32 @@ namespace CarLotSimulator
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
+            var Future = new Car();
+            Future.Make = "Tesla";
+            Future.Model = "Roadster";
+            Future.Year = 2025;
+            Future.EngineNoise = "*silence*";
+            Future.HonkNoise = "Meep Meep";
+            Future.MakeEngineNoise();
+            Future.MakeHonkNoise();
 
+            var Present = new Car();
+            Present.Make = "Jeep";
+            Present.Model = "Wrangler Rubicon 392";
+            Present.Year = 2022;
+            Present.EngineNoise = "Vroom Vroom";
+            Present.HonkNoise = "Burrr Burrrrr";
+            Present.MakeEngineNoise();
+            Present.MakeHonkNoise();
+
+            var Past = new Car();
+            Past.Make = "Oldsmobile";
+            Past.Model = "Cutlass";
+            Past.Year = 1999;
+            Past.EngineNoise = "put put put";
+            Past.HonkNoise = "Peep Peep";
+            Past.MakeEngineNoise();
+            Past.MakeHonkNoise();
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
