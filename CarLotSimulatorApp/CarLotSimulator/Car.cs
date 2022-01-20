@@ -3,6 +3,10 @@ namespace CarLotSimulator
 {
     public class Car
     {
+        public Car()
+        {
+
+        }
         public Car(int year, string make, string model, string enginenoise, string honknoise, bool isdriveable)
         {
             Year = year;

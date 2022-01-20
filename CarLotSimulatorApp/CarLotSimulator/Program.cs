@@ -50,30 +50,23 @@ namespace CarLotSimulator
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
 
-            //var Future = new Car();
-            //Future.Make = "Tesla";
-            //Future.Model = "Roadster";
-            //Future.Year = 2025;
-            //Future.EngineNoise = "*silence*";
-            //Future.HonkNoise = "Meep Meep";
-            //Future.IsDrivable = true;
-            //Future.MakeEngineNoise();
-            //Future.MakeHonkNoise();
+            var Future = new Car();
+            Future.Make = "Tesla";
+            Future.Model = "Roadster";
+            Future.Year = 2025;
+            Future.EngineNoise = "*silence*";
+            Future.HonkNoise = "Meep Meep";
+            Future.IsDrivable = true;
 
-            //var Present = new Car()
-            //{
-            //    Year = 2022,
-            //    Make = "Jeep",
-            //    Model = "Wrangler Rubicon 392",
-            //    EngineNoise = "Vroom Vroom",
-            //    HonkNoise = "Burrr Burrrrr",
-            //    IsDrivable = true
-            //};
-            var Future = new Car(1999, "Tesla", "Roadster", "*silence*", "Meep Meep", true);
-            
-
-            var Present = new Car(2022, "Jeep", "Wrangler Rubicon 392", "Vroom Vroom", "Burrr Burrrr", true);
-            
+            var Present = new Car()
+            {
+                Year = 2022,
+                Make = "Jeep",
+                Model = "Wrangler Rubicon 392",
+                EngineNoise = "Vroom Vroom",
+                HonkNoise = "Burrr Burrrrr",
+                IsDrivable = true
+            };
 
             var Past = new Car(1999, "Oldsmobile", "Cutlass", "put put put", "Peep Peep", false);
             
