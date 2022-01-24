@@ -20,7 +20,6 @@ namespace CarLotSimulator
                 Console.WriteLine($"Car number {count}: {car.Year} {car.Make} {car.Model}");
                 car.MakeEngineNoise();
                 car.MakeHonkNoise();
-
                 count++;
             }
         }
